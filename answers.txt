@@ -1,0 +1,11 @@
+1 - Coercion is another term for which of the following concepts in Python?
+    d) Implicit type conversion
+
+2 - Type casting is another term for which of the following concepts in Python?
+    c) Explicit type conversion
+
+3 - a) type()
+
+4 - c)
+
+5 - To make changes to the tuple
