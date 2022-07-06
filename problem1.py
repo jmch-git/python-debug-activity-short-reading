@@ -12,6 +12,18 @@ def get_offense():
 def get_defense():
     global defense
     defense = True
+    num1 = 10
+    num2 = 50
+
+    def add_nums():
+      nonlocal num2 # get a variable from the scope above that is not a global scope
+      num2 = num2 + num1
+
+    def print_num():
+      print("num2 is", num2)
+
+    add_nums()
+    print_num()  
 
     def get_rule_changes():
       global rule_changes
